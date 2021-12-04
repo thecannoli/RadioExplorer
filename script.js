@@ -20,7 +20,7 @@ loadSong(songs[songIndex])
 //update the song details
 function loadSong(song) {
     title.innerText = song
-    audio.src = 'http://193.122.63.224/radio/8000/radio.mp3'
+    audio.src = 'https://193.122.63.224/radio/8000/radio.mp3'
 }
 
 function playSong() {
